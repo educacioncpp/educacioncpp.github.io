@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Merriweather:ital,wght@0,400;0,700;1,300;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+body {
+    background: #0d022f;
+    color: #fff;
+}
+article {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffee52;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-position {
+    padding: 2rem 0;
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.post-content {
+        padding: 1% 2% 1% 2%;
+        border: 1px solid #37095e;
+}
+
+.post-content figure img {
+    width: 100%;
+}
+
+.post-content h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 29px;
+    color: #e3f9ff;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+@media only screen and (max-width: 880px) {
+    h1 {
+        font-size: 22px;
+     }
+    }
+
+.post-content h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    color: #ffd5d5;
+    text-align: center;
+}
+@media only screen and (max-width: 880px) {
+    h2 {
+        font-size: 21px;
+     }
+    }
+
+.post-content h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: #9fc4b2;
+    text-align: center;
+}
+@media only screen and (max-width: 880px) {
+    h3 {
+        font-size: 20px;
+     }
+}    
+
+.post-content p {
+    font-size: 18px;
+    color: #b5c0c6;
+}
+
+
+.post-content blockquote {
+    color: #6c8c82;
+    padding: 0px 5px 0px 5px;
+    font-family: 'Ubuntu:ital';
+    text-align: center;
+    line-height: 20px;
+}
+
+.post-content figure {
+    border-radius: 10px;
+    border: solid 1px #05ffff45;
+}
+
+.post-content figcaption {
+    padding-left: 10px;
+    font-family: 'Pacifico', cursiva;
+    font-size: 14px;
+    color: #fff;
+}
+
+.post-content figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-content a {
+    color: #83e4f9;
+}
+
+.post-content ul{
+    font-family: 'Ubuntu', serif;
+    font-size: 16px;
+    padding-left: 2em;
+    padding-right: 1em;
+    color: #a1b8bf;
+}
+
+.post-content code {
+    background: #000;
+    color: #a193f1;
+}
+
+.post-content pre {
+    background: #000;
+    color: #5769a2e8;
+}
+
+.card {
+    background: #000;
+}
